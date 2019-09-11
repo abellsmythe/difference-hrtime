@@ -1,0 +1,54 @@
+{
+ "name": "difference-hrtime",
+ "version": "1.0.0",
+ "description": "package to calculate the difference between two process hrtime",
+ "main": "dist",
+ "engines": {
+  "node": ">=8"
+ },
+ "files": [
+  "dist"
+ ],
+ "scripts": {
+  "build": "tsc",
+  "lint": "eslint --ext js .",
+  "prepublishOnly": "npm run build"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/abellsmythe/difference-hrtime.git"
+ },
+ "keywords": [
+  "nodejs",
+  "time",
+  "hrtime"
+ ],
+ "author": "Alton Bell Smythe <abellsmythe@gmail.com>",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/abellsmythe/difference-hrtime/issues"
+ },
+ "homepage": "https://github.com/abellsmythe/difference-hrtime#readme",
+ "devDependencies": {
+  "@types/node": "^12.7.4",
+  "@typescript-eslint/eslint-plugin": "^2.1.0",
+  "@typescript-eslint/parser": "^2.1.0",
+  "eslint": "^6.3.0",
+  "eslint-config-standard": "^14.1.0",
+  "eslint-config-xo-typescript": "^0.17.0",
+  "eslint-plugin-import": "^2.18.2",
+  "eslint-plugin-node": "^10.0.0",
+  "eslint-plugin-promise": "^4.2.1",
+  "eslint-plugin-standard": "^4.0.1",
+  "p-event": "^4.1.0",
+  "prettier": "^1.18.2",
+  "ts-node": "^8.3.0",
+  "tslint": "^5.19.0",
+  "tslint-config-airbnb": "^5.11.1",
+  "tslint-config-prettier": "^1.18.0",
+  "tslint-plugin-prettier": "^2.0.1",
+  "typescript": "^3.6.2"
+ },
+ "dependencies": {},
+ "types": "dist"
+}
